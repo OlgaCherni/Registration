@@ -1,0 +1,38 @@
+*{                                              
+    font-family:"Times New Roman", Times, serif; 
+}
+
+body{
+	margin: 50px auto;
+	background-color:aquamarine;
+	
+}
+
+form{
+    box-sizing: border-box;
+	max-width: 600px;
+	margin: 50px auto; 
+}
+
+.btn {    
+	margin: 50px auto;                 /*! внешний отступ вокруг кнопки */
+    background: aqua;             /*! фон */
+    color: rgb(6, 6, 80);           /*!  цвет надписи */
+    font-size: 20px;                  /*!  размер надписи в кнопке  */
+    padding: 5px;                         /*!  отступы у текста в кнопке */
+    border: 3px solid darkblue;          /*! границы у кнопки толщина сплошной цвет */
+    border-radius: 20px;              /*!  закругленные углы кнопок  */
+}
+
+img {
+    width: 230px;
+    height: 300px;
+    border-radius: 50%;            /*! 50% - картинка круглая*/
+    box-shadow: 10px 3px 10px  rgb(4, 6, 125);   /*!  тень */  
+} 
+
+.time{
+    margin: 200px auto auto 300px;
+	color: darkblue;
+	font-size: 20px; 
+}

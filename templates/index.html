@@ -1,0 +1,19 @@
+<!-- Комментарий -->
+{% load static %}                                                                           <!-- +CSS -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1 page</title>
+    <meta charset="utf-8">
+    <meta name="Olga" content="Task">
+    <link rel="stylesheet" type="text/css" href="{% static 'CSS\style.css' %}">                 <!-- +CSS -->
+</head>
+<body>
+    <form method="post">{% csrf_token %}               <!--в шаблоне, использующем форму POST, следует использовать тег csrf_token, если форма предназначена для внутреннего URL-->
+        {{form}}   
+        <input class="btn" type="submit" value="Регистрация"> 
+    </form>
+</body>
+</html>
+
